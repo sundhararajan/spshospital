@@ -1,0 +1,52 @@
+header{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    top:0px;
+}
+header:hover{
+    background: #fff;
+}
+header  .logowhite{display: block;}
+header:hover .logoblock{display: block;}
+
+header .logoblock{display: none;}
+header:hover .logowhite{display: none;}
+
+header .navbar-light .logowhite{display: none;}
+header .navbar-light .logoblock{display: block;}
+
+
+        .navbar .megamenu {
+            padding: 1rem;
+        }
+
+        /* ============ desktop view ============ */
+        @media all and (min-width: 992px) {
+            .navbar .has-megamenu {
+                position: static !important;
+            }
+
+            .navbar .megamenu {
+                left: 0;
+                right: 0;
+                width: 100%;
+                margin-top: -15px;
+            }
+        }
+
+        /* ============ desktop view .end// ============ */
+        /* ============ mobile view ============ */
+        @media(max-width: 991px) {
+
+            .navbar.fixed-top .navbar-collapse,
+            .navbar.sticky-top .navbar-collapse {
+                overflow-y: auto;
+                max-height: 90vh;
+                margin-top: 10px;
+            }
+        }
+
+        /* ============ mobile view .end// ============ */
+   
