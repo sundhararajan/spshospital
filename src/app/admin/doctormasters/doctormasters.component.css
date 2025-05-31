@@ -1,0 +1,32 @@
+.form__bg_wrp h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #ffb308;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 16px;
+}
+.form__bg_wrp h6 {
+    font-size: 16px;
+    color: #000;
+    font-weight: normal;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.form-input{
+    font:500 14px 'Roboto', sans-serif;color:#666;
+    line-height:35px!important; width:190px;height:35px;padding:6px 10px;
+    background-color:#fff;
+    border:1px solid #007d9e;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 1px 2px rgba(189,189,189,.91);
+    -moz-box-shadow: 0px 1px 2px rgba(189,189,189,.91);
+    box-shadow: 0px 1px 2px rgba(189,189,189,.91);
+                                 
+}
+
+.dash{
+    position: absolute;
+    left: 46%;
+    top:20%;
+}

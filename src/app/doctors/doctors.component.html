@@ -25,7 +25,7 @@
                                 </svg>
                             </li>
                             <li class="breadcrumb__item">
-                                Apollo Doctors
+                                SPS Doctors
                             </li>
                         </ol>
                     </div>
@@ -1477,10 +1477,8 @@
             </aside>
         </div>
         <div class="col-md-8 pt-5 pos-relative">
-            <div class="view__filters">
-                <form data-drupal-selector="views-exposed-form-doctors-list-block-1" action="/doctors" method="get"
-                    id="views-exposed-form-doctors-list-block-1" accept-charset="UTF-8"
-                    class="views-exposed-form bef-exposed-form form">
+            <div class="view__filters view__filters_outer">
+                <div class="search-input">
                     <div data-once="input-focus"
                         class="js-form-item form-item js-form-type-search-api-autocomplete form-item__search-api-fulltext js-form-item-search-api-fulltext">
                         <input placeholder="Search for Doctors &amp; Specialities...."
@@ -1489,14 +1487,13 @@
                             data-autocomplete-path="/search_api_autocomplete/doctors_list?display=block_1&amp;&amp;filter=search_api_fulltext"
                             type="text" id="edit-search-api-fulltext--2" name="search_api_fulltext" value="" size="30"
                             maxlength="128" data-once="autocomplete search-api-autocomplete" autocomplete="off"
-                            class="form-autocomplete form-text form-input ui-autocomplete-input" fdprocessedid="djbkod">
+                            class="form-autocomplete form-text form-input b-0 ui-autocomplete-input" fdprocessedid="djbkod">
                     </div>
                     <div data-drupal-selector="edit-actions" id="edit-actions--2"
-                        class="form-actions form-container js-form-wrapper form-wrapper"><input
-                            data-drupal-selector="edit-submit-doctors-list-2" type="submit"
-                            id="edit-submit-doctors-list--2" value="Apply"
-                            class="button js-form-submit form-submit form-input" fdprocessedid="0qyle2"></div>
-                </form>
+                        class="form-actions form-container js-form-wrapper form-wrapper">
+                        <span class="searchicon" style="display: block;"><img width="20px" src="../../assets/images/search.png"></span>
+                    </div>
+                </div>
             </div>
             <div class="doctor-cards-list">
                 <div id="doctor-3678482" data-hospitalid="hospital-16" data-specialityid="speciality-280"
